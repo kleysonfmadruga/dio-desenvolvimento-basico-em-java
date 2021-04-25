@@ -22,7 +22,7 @@ public class Main {
         // In catOne, we can access all the methods defined of Cat and Feline classes and Quadruped interface
         catOne.iAmTheCat();
         // In catTwo, we can only access the methods defined in Feline
-        catTwo.eat();
+        catTwo.shakeTail("three");
         // In catThree, we can only access the methods defined in Quadruped
         catThree.walkingOnFourLags();
 

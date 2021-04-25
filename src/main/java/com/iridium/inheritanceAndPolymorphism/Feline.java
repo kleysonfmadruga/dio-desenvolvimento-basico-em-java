@@ -10,6 +10,13 @@ public abstract class Feline {
         System.out.println("Shaking the tail");
     }
 
+    // Methods can have the same name as long as it has a different signature
+    // This is called 'method overloading'
+    // The signature of a method is defined by its return type, parameters, visibility and exceptions that it throws
+    public void shakeTail(String times){
+        System.out.printf("Shaking the tail %s times\n", times);
+    }
+
     // Final methods can't be overridden by child classes
     public final void dontOverrideMe(){
         System.out.println("Don't override me, I'm final");
